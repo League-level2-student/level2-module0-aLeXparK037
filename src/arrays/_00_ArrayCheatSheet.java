@@ -3,16 +3,22 @@ package arrays;
 public class _00_ArrayCheatSheet {
 	public static void main(String[] args) {
 		//1. make an array of 5 Strings
+		String [] friends = {"Alex", "Edward", "Gaby", "Anthony", "Alden"};
 		
 		//2. print the third element in the array
-		
+		System.out.println(friends[2]);
 		//3. set the third element to a different value
+		 friends[2] = "Peter";
 		
 		//4. print the third element again
-		
+			System.out.println(friends[2]);
+
 		//5. use a for loop to print all the values in the array
 		//   BE SURE TO USE THE ARRAY'S length VARIABLE
-		
+		for (int i = 0;i<friends.length;i++) {
+			System.out.println(friends[i]);
+		}
+
 		
 		//6. make an array of 50 integers
 		
