@@ -3,7 +3,7 @@ package arrays;
 public class _00_ArrayCheatSheet {
 	public static void main(String[] args) {
 		//1. make an array of 5 Strings
-		String [] friends = {"Alex", "Edward", "Gaby", "Anthony", "Alden"};
+		/*String [] friends = {"Alex", "Edward", "Gaby", "Anthony", "Alden"};
 		
 		//2. print the third element in the array
 		System.out.println(friends[2]);
@@ -17,13 +17,16 @@ public class _00_ArrayCheatSheet {
 		//   BE SURE TO USE THE ARRAY'S length VARIABLE
 		for (int i = 0;i<friends.length;i++) {
 			System.out.println(friends[i]);
-		}
+		}*/
 
 		
 		//6. make an array of 50 integers
+		String [] manyInts = new String [50];
 		
 		//7. use a for loop to make every value of the integer array a random number
-		
+		for (int i = 0; i < manyInts.length; i++) {
+			
+		}
 		//8. without printing the entire array, print only the smallest number in the array
 		
 		//9 print the entire array to see if step 8 was correct
