@@ -12,7 +12,7 @@ void setup() {
   //   from 0 to the built in height variable
   
 for (int i = 0; i < nums.length; i++){
-  nums[i]= (int)random(height);;
+  nums[i]= (int)random(height);
 }
 
   //5. call the noStroke() method
@@ -22,9 +22,9 @@ for (int i = 0; i < nums.length; i++){
 
 void draw() {
   //6. set the background color with background(r, g, b);
-background(255,0,0);
+background(0,0,255);
   //7. set the color for your graph
-color(0,255,0);
+color(0,0,255);
   //8. draw a rectangle for each int in your array.
   for (int i = 0; i < width; i++){
     rect(i,height, 1,-i);
@@ -36,6 +36,9 @@ color(0,255,0);
 
 
   //9. call the stepSort method
+  if (mousePressed){
+  stepSort(nums);
+  }
   
   //10. extract the code that randomizes the array into a method.
 
