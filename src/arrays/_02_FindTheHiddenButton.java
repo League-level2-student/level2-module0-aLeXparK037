@@ -18,7 +18,7 @@ import javax.swing.JPanel;
 public class _02_FindTheHiddenButton implements ActionListener{
 	JFrame window;
 	JPanel panel;
-	
+	//kjhkjh
 	//1. create an array of JButtons. Don't initialize it yet.
 	JButton [] button;
 	
