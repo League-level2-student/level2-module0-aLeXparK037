@@ -58,7 +58,7 @@ public class MIDIKeyboard implements KeyListener{
 		System.out.println(keyCode);
 		
 		// 4. if keyboardRowQtoP contains keyCode...
-		if ()
+
 
 			// 5. call playNote() with keyCode, keyboardRowQtoP, and piano as the arguments
 
